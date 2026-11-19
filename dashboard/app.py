@@ -2,6 +2,8 @@
 NexusChain AI — Executive Streamlit + Plotly Command Center
 Real-Time Supply Chain Intelligence & Disruption Prediction Platform
 """
+# this is the main Streamlit application entry point for the NexusChain AI platform. It provides a real-time dashboard for monitoring supply chain telemetry, predicting delays, forecasting demand, assessing warehouse stockout risks, evaluating supplier risks, and recommending prescriptive rerouting actions. The application integrates various machine learning models and streaming data pipelines to deliver actionable insights to supply chain executives and operators.
+
 from __future__ import annotations
 
 import sys
