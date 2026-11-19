@@ -89,3 +89,6 @@ services:
 
 volumes:
   pgdata:
+
+
+# descriptive info: This docker-compose.yml file orchestrates a multi-container environment for a real-time supply chain intelligence and disruption prediction system. It includes services for PostgreSQL, Redis, Apache Kafka, MLflow, a FastAPI backend, and a Streamlit dashboard. Each service is configured with appropriate environment variables, ports, and health checks to ensure smooth operation and inter-service communication.
