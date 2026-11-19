@@ -30,3 +30,4 @@ class Settings:
 
 
 settings = Settings()
+# info :- main aim: Centralized configuration for database, Redis, Kafka, and MLflow settings, with default values and environment variable overrides.
