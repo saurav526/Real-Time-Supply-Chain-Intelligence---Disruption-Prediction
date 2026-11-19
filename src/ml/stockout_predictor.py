@@ -4,14 +4,13 @@ Couples live inbound shipment delay predictions with daily demand volatility
 to estimate stockout probabilities for individual warehouses.
 """
 from __future__ import annotations
-
 import math
 from typing import Any, Dict, List
 import numpy as np
 
 from src.data.database import repository
 from src.ml.delay_predictor import delay_predictor
-
+# overall purpose: Predict stockout probabilities for warehouses based on current inventory, inbound shipments, and demand patterns
 
 class WarehouseStockoutPredictor:
     """
