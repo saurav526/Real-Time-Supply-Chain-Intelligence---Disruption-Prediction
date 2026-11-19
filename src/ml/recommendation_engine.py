@@ -4,7 +4,6 @@ Quantifies the financial cost of doing nothing vs. executing the AI-recommended
 mitigation (rerouting through an alternative logistics hub or activating backup supplier).
 """
 from __future__ import annotations
-
 from typing import Any, Dict, List
 from src.data.database import repository
 from src.data.generator import PORTS_AND_HUBS
