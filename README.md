@@ -4,7 +4,7 @@ An enterprise-grade **Real-Time Supply Chain Intelligence & Disruption Predictio
 
 ---
 
-## 🎯 Real-Time Scenario Demonstrated Out-of-the-Box
+##  Real-Time Scenario Demonstrated Out-of-the-Box
 
 > **Live Telemetry Input:** Shipment **`SH-1042`** (Edge AI Neural Compute Modules, 3,000 units) is scheduled to reach **Mumbai (JNPT)** in **8 hours**. Live AIS and port telemetry detect an acute port congestion surge (`port_congestion_index = 0.89`).
 >
