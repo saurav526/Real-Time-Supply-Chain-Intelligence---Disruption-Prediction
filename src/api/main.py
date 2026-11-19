@@ -1,9 +1,4 @@
-"""
-FastAPI Backend Service — Real-Time Supply Chain Intelligence & Disruption Prediction
-Exposes REST & streaming telemetry endpoints for shipment delay prediction,
-TFT/Prophet demand forecasting, warehouse stockout risk, supplier failure scoring,
-shipping anomaly detection, route recommendations, financial impact, and MLOps monitoring.
-"""
+# FastAPI Backend Service — Real-Time Supply Chain Intelligence & Disruption Prediction
 from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
