@@ -1,7 +1,4 @@
-"""
-Unified Data Persistence (PostgreSQL / SQLAlchemy + SQLite fallback)
-and Low-Latency State Cache (Redis + In-Memory TTL fallback).
-"""
+# Data Persistence and Caching Layer for the NexusChain AI Platform
 from __future__ import annotations
 
 import json
