@@ -2,12 +2,11 @@
 MLflow Experiment Tracking & Model Registry Integration
 Tracks training runs, hyperparameters, and evaluation metrics across
 XGBoost, LightGBM, CatBoost, Temporal Fusion Transformer, and Prophet.
+this file provides a structured overview of registered models, their versions, stages, and performance metrics for the API and MLOps dashboard.
 """
 from __future__ import annotations
-
 from datetime import datetime
 from typing import Any, Dict, List
-
 from src.config import settings
 from src.ml.delay_predictor import delay_predictor
 
