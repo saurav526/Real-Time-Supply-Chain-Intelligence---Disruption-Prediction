@@ -2,9 +2,9 @@
 Evidently-Compatible Data Drift & Concept Drift Monitoring Engine
 Computes Population Stability Index (PSI) and Two-Sample Kolmogorov-Smirnov (KS)
 statistics comparing reference training distributions against live shipment telemetry.
+overall purpose: Monitor for covariate shift and prediction drift in supply chain features to trigger retraining or alerting.
 """
 from __future__ import annotations
-
 from datetime import datetime
 from typing import Any, Dict, List
 import numpy as np
