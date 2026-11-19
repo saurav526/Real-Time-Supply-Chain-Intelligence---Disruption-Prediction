@@ -7,6 +7,7 @@ Includes the canonical real-time scenario:
   78% probability of arriving late, expected delay: 11 hours,
   primary cause: port congestion signal, recommended action: reroute via alternative logistics hub.
 """
+# explanation: This module generates synthetic and realistic supply chain telemetry data, historical shipment records, port congestion metrics, warehouse inventory levels, and supplier information. It includes a canonical real-time scenario for shipment SH-1042, which is expected to arrive at Mumbai (JNPT) in 8 hours but has a 78% probability of being delayed by 11 hours due to port congestion. The recommended action is to reroute the shipment via an alternative logistics hub.
 from __future__ import annotations
 
 import math
