@@ -3,12 +3,11 @@ PySpark Structured Streaming Processor for High-Throughput Supply Chain Telemetr
 Reads live telemetry JSON events from Apache Kafka (`shipment.telemetry.live`),
 computes sliding-window port congestion and vessel speed aggregations, and
 enriches micro-batches with ML delay predictions.
+Main aim: Provide a unified interface for both distributed PySpark Structured Streaming and low-latency micro-batch aggregation for dashboards and APIs.
 """
 from __future__ import annotations
-
 from typing import Any, Dict, List
 import pandas as pd
-
 from src.config import settings
 from src.data.database import repository
 

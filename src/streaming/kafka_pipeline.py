@@ -2,7 +2,7 @@
 Apache Kafka Real-Time Telemetry Producer & Disruption Alert Consumer
 Supports live Kafka brokers (`kafka-python`) with automatic fallback to an
 in-memory event bus so real-time streaming works out-of-the-box anywhere.
-Main aim to provide a unified interface for publishing live shipment telemetry updates and emitting disruption alerts to Kafka topics, while also maintaining a recent event history for monitoring and debugging.
+Main aim: Provide a unified interface for publishing live shipment telemetry updates and emitting disruption alerts to Kafka topics, while also maintaining a recent event history for monitoring and debugging.
 """
 from __future__ import annotations
 from collections import deque
