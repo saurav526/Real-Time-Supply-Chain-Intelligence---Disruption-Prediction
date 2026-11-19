@@ -4,7 +4,6 @@ Executes the entire ML, Forecasting, Streaming, Prescriptive, and MLOps pipeline
 and prints executive intelligence summaries to the console.
 """
 from __future__ import annotations
-
 from src.data.database import repository
 from src.ml.anomaly_detector import anomaly_detector
 from src.ml.delay_predictor import delay_predictor
