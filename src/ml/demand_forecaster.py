@@ -6,7 +6,6 @@ Combines:
   2. Prophet Additive/Multiplicative Decomposition (Trend + Weekly + Monthly + Promo Regressors)
 """
 from __future__ import annotations
-
 import math
 from datetime import timedelta
 from typing import Any, Dict, List
@@ -15,7 +14,7 @@ import pandas as pd
 
 from src.data.generator import generate_demand_history
 
-
+# overall purpose: Generate multi-horizon demand forecasts using a combination of TFT and Prophet models
 class TemporalFusionQuantileBlock:
     """
     Lightweight PyTorch / NumPy hybrid Temporal Fusion Transformer (TFT)
