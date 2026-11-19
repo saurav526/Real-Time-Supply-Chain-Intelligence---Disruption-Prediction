@@ -4,7 +4,7 @@ Uses Isolation Forest trained on historical vessel/freight kinematics
 plus domain rules for route deviations, AIS dark periods, speed drops, and customs dwell spikes.
 """
 from __future__ import annotations
-
+# Main purpose: Detect unusual shipping patterns across live shipments using IsolationForest and multi-signal kinematic heuristics.
 from typing import Any, Dict, List
 import numpy as np
 import pandas as pd
